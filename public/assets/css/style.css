@@ -917,19 +917,22 @@ menu
 }
 
 .card1 {
-  background-image: url(../images/menu-item-01.jpg);
+  background-image: url(../images/plain.jpeg);
 }
 .card2 {
-  background-image: url(../images/menu-item-02.jpg);
+  background-image: url(../images/spicy.jpg);
 }
 .card3 {
-  background-image: url(../images/menu-item-03.jpg);
+  background-image: url(../images/Sweet.jpg);
 }
 .card4 {
-  background-image: url(../images/menu-item-04.jpg);
+  background-image: url(../images/salty.jpg);
 }
 .card5 {
-  background-image: url(../images/menu-item-05.jpg);
+  background-image: url(../images/mint.jpg);
+}
+.card6{
+  background-image: url(../images/Roasted.jpg);
 }
 
 .info {
