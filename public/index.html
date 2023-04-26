@@ -1,449 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Go MAKHANA - Shop the Best</title>
-    <link rel="stylesheet" href="css/home.css">
+    <title>Go Makhana</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
 </head>
-
 <body>
-    <nav class="navbar">
-        <div class="nav">
-            <img src="img/dark-logo.png" class="brand-logo" alt="">
-            <div class="nav-items">
-                <div class="search">
-                    <input type="text" class="search-box" placeholder="search brand, product">
-                    <button class="search-btn">search</button>
-                </div>
-                <a href="#"><img src="img/user.png" alt=""></a>
-                <a href="#"><img src="img/cart.png" alt=""></a>
-            </div>
+         <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        <ul class="links-container">
-            <li class="link-item"><a href="#" class="link">home</a></li>
-            <li class="link-item"><a href="#" class="link">women</a></li>
-            <li class="link-item"><a href="#" class="link">men</a></li>
-            <li class="link-item"><a href="#" class="link">kids</a></li>
-            <li class="link-item"><a href="#" class="link">accessories</a></li>
-        </ul>
-    </nav>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+     
+
+        <!-- ***** Header Area Start ***** -->
+        <header class="header-area header-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="main-nav">
+                            <!-- ***** Logo Start ***** -->
+                            <a href="index.html" class="logo">
+                                <img src="assets/images/logo.jpg" height="30px">
+                            </a>
+                            <!-- ***** Logo End ***** -->
+                            <!-- ***** Menu Start ***** -->
+                            <ul class="nav">
+                                <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                                <li class="scroll-to-section"><a href="#about">About</a></li>
+                                   
+                          
+                                <li class="scroll-to-section"><a href="#menu">Blog</a></li>
+                                <li class="scroll-to-section"><a href="#chefs">Shop</a></li> 
+                                <li class="submenu">
+                                    <a href="javascript:;">Menu</a>
+                                    <ul>
+                                        <li><a href="#">Features Page 1</a></li>
+                                        <li><a href="#">Features Page 2</a></li>
+                                        <li><a href="#">Features Page 3</a></li>
+                                        <li><a href="#">Features Page 4</a></li>
+                                    </ul>
+                                </li>
+                               
+                                <li class="scroll-to-section"><a href="#reservation">Contact Us</a></li> 
+                            </ul>        
+                            <a class='menu-trigger'>
+                                <span>Menu</span>
+                            </a>
+                            <!-- ***** Menu End ***** -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ***** Header Area End ***** -->
 
 
-    <!-- hero section -->
-<header class="hero-section">
-    <div class="content">
-        <img src="img/light-logo.png" class="logo" alt="">
-        <p class="sub-heading">best fashion collection of all time</p>
-    </div>
-</header> 
 
-    <!-- card-container -->
-<section class="product">
-    <h2 class="product-category">Cloths</h2>
-    <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
-<button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
-    <div class="product-container">
-        <div class="product-card">
-            <div class="product-image">
-                <span class="discount-tag">50% off</span>
-                <img src="img/card1.png" class="product-thumb" alt="">
-                <button class="card-btn">add to whislist</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-des">a short line about the cloth..</p>
-                <span class="price">$20</span><span class="actual-price">$40</span>
-            </div>
-        </div>
-
-        <div class="product-card">
-            <div class="product-image">
-                <span class="discount-tag">50% off</span>
-                <img src="img/card2.png" class="product-thumb" alt="">
-                <button class="card-btn">add to whislist</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-des">a short line about the cloth..</p>
-                <span class="price">$20</span><span class="actual-price">$40</span>
-            </div>
-        </div>
-
-        <div class="product-card">
-            <div class="product-image">
-                <span class="discount-tag">50% off</span>
-                <img src="img/card3.png" class="product-thumb" alt="">
-                <button class="card-btn">add to whislist</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-des">a short line about the cloth..</p>
-                <span class="price">$20</span><span class="actual-price">$40</span>
-            </div>
-        </div>
-
-        <div class="product-card">
-            <div class="product-image">
-                <span class="discount-tag">50% off</span>
-                <img src="img/card4.png" class="product-thumb" alt="">
-                <button class="card-btn">add to whislist</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-des">a short line about the cloth..</p>
-                <span class="price">$20</span><span class="actual-price">$40</span>
-            </div>
-        </div>
-
-        <div class="product-card">
-            <div class="product-image">
-                <span class="discount-tag">50% off</span>
-                <img src="img/card5.png" class="product-thumb" alt="">
-                <button class="card-btn">add to whislist</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-des">a short line about the cloth..</p>
-                <span class="price">$20</span><span class="actual-price">$40</span>
-            </div>
-        </div>
-
-        <div class="product-card">
-            <div class="product-image">
-                <span class="discount-tag">50% off</span>
-                <img src="img/card6.png" class="product-thumb" alt="">
-                <button class="card-btn">add to whislist</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-des">a short line about the cloth..</p>
-                <span class="price">$20</span><span class="actual-price">$40</span>
-            </div>
-        </div>
-
-        <div class="product-card">
-            <div class="product-image">
-                <span class="discount-tag">50% off</span>
-                <img src="img/card7.png" class="product-thumb" alt="">
-                <button class="card-btn">add to whislist</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-des">a short line about the cloth..</p>
-                <span class="price">$20</span><span class="actual-price">$40</span>
-            </div>
-        </div>
-
-        <div class="product-card">
-            <div class="product-image">
-                <span class="discount-tag">50% off</span>
-                <img src="img/card8.png" class="product-thumb" alt="">
-                <button class="card-btn">add to whislist</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-des">a short line about the cloth..</p>
-                <span class="price">$20</span><span class="actual-price">$40</span>
-            </div>
-        </div>
-</section>
-
-<!-- collections -->
-<section class="collection-container">
-    <a href="#" class="collection">
-        <img src="img/women-collection.png" alt="">
-        <p class="collection-title">women <br> apparels</p>
-    </a>
-    <a href="#" class="collection">
-        <img src="img/men-collection.png" alt="">
-        <p class="collection-title">men <br> apparels</p>
-    </a>
-    <a href="#" class="collection">
-        <img src="img/accessories-collection.png" alt="">
-        <p class="collection-title">accessories</p>
-    </a>
-</section>
-
-    <!-- card-container -->
-    <section class="product">
-        <h2 class="product-category">Shoes</h2>
-        <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
-    <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
-        <div class="product-container">
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card9.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
+        <!-- ***** Main Banner Area Start ***** -->
+    <div id="top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="left-content">
+                        <div class="inner-content">
+                            <h4>GO MAKHANA</h4>
+                            <h6>Think Healthy Think Makhana</h6>
+                            <div class="main-white-button scroll-to-section">
+                                <a href="#reservation">Explore</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
+                <div class="col-lg-8">
+                    <div class="main-banner header-text">
+                        <div class="Modern-Slider">
+                          <!-- Item -->
+                          <div class="item">
+                            <div class="img-fill">
+                                <img src="assets/images/makhana1.jpg" alt="">
+                            </div>
+                          </div>
+                          <!-- // Item -->
+                          <!-- Item -->
+                          <div class="item">
+                            <div class="img-fill">
+                                <img src="assets/images/makhana1.jpg" alt="">
+                            </div>
+                          </div>
+                          <!-- // Item -->
+                          <!-- Item -->
+                          <div class="item">
+                            <div class="img-fill">
+                                <img src="assets/images/makhana1.jpg" alt="">
+                            </div>
+                          </div>
+                          <!-- // Item -->
+                        </div>
+                    </div>
                 </div>
             </div>
-    
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card10.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card11.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card12.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card10.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card9.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card12.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card11.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    </section>
-
-         <!-- card-container -->
-    <section class="product">
-        <h2 class="product-category">Shoes</h2>
-        <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
-    <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
-        <div class="product-container">
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card9.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card10.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card11.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card12.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card10.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card9.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card12.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card11.png" class="product-thumb" alt="">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-    </section>
-
-    <footer>
-        <div class="footer-content">
-            <img src="img/light-logo.png" class="logo" alt="">
-            <div class="footer-ul-container">
-                <ul class="category">
-                    <li class="category-title">men</li>
-                    <li><a href="#" class="footer-link">t-shirts</a></li>
-                    <li><a href="#" class="footer-link">sweatshirts</a></li>
-                    <li><a href="#" class="footer-link">shirts</a></li>
-                    <li><a href="#" class="footer-link">jeans</a></li>
-                    <li><a href="#" class="footer-link">trousers</a></li>
-                    <li><a href="#" class="footer-link">shoes</a></li>
-                    <li><a href="#" class="footer-link">casuals</a></li>
-                    <li><a href="#" class="footer-link">formals</a></li>
-                    <li><a href="#" class="footer-link">sports</a></li>
-                    <li><a href="#" class="footer-link">watch</a></li>
-                </ul>
-                <ul class="category">
-                    <li class="category-title">women</li>
-                    <li><a href="#" class="footer-link">t-shirts</a></li>
-                    <li><a href="#" class="footer-link">sweatshirts</a></li>
-                    <li><a href="#" class="footer-link">shirts</a></li>
-                    <li><a href="#" class="footer-link">jeans</a></li>
-                    <li><a href="#" class="footer-link">trousers</a></li>
-                    <li><a href="#" class="footer-link">shoes</a></li>
-                    <li><a href="#" class="footer-link">casuals</a></li>
-                    <li><a href="#" class="footer-link">formals</a></li>
-                    <li><a href="#" class="footer-link">sports</a></li>
-                    <li><a href="#" class="footer-link">watch</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <p class="footer-title">about company</p>
-    <p class="info">
-        Section to write details of company Here is some lorem text .. 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officia natus deleniti odio iusto, repellendus id earum fugiat minus magni nostrum saepe omnis accusantium fugit sed similique, laboriosam explicabo labore.
-    </p>
-    <p class="info">support emails - help@gomakhana.com, customersupport@gomakhana.com</p>
-    <p class="info">telephone - 180 00 00 001, 180 00 00 002</p>
-    <div class="footer-social-container">
-        <div>
-            <a href="#" class="social-link">terms & services</a>
-            <a href="#" class="social-link">privacy page</a>
-        </div>
-        <div>
-            <a href="#" class="social-link">instagram</a>
-            <a href="#" class="social-link">facebook</a>
-            <a href="#" class="social-link">twitter</a>
         </div>
     </div>
-    <p class="footer-credit">GO MAKHANA, Best apparels online store</p>
-    </footer>
+    <!-- ***** Main Banner Area End ***** -->
 
-<script src="js/home.js"></script>
+
+    <!-- ***** About Area Starts ***** -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>About Us</h6>
+                            <h2>Delicious, Nutritious, and Sustainable - Go Makhana!</h2>
+                        </div>
+                        <p>Welcome to Go Makhana, where we are passionate about bringing you the best quality makhana snacks! 
+
+                            At Go Makhana, we are a team of food enthusiasts who believe in making healthy and delicious snacking accessible to everyone. Our journey began with a love for makhana, a nutrient-rich superfood, and the desire to create a snack that is both delicious and beneficial for your health.
+                            
+                            We believe that food should be nutritious, tasty, and convenient, and that is why we have created our range of makhana snacks. Our snacks are made from the finest quality ingredients, sourced from the best suppliers, and are prepared with utmost care to ensure that you get the best possible experience.
+                            
+                            At Go Makhana, we believe in transparency and are committed to providing you with honest information about our products. We take pride in our snacks and are confident that you will love them too!
+                            
+                            Thank you for choosing us, and we look forward to sharing our snacks with you!</p>
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="assets/images/pro1.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img src="assets/images/pro2.JPG" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img src="assets/images/pro3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="right-content">
+                        <div class="thumb">
+                            <a rel="nofollow" href="http://youtube.com"><i class="fa fa-play"></i></a>
+                            <img src="assets/images/pro1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** About Area Ends ***** -->
+
+
+
+
+         <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/slick.js"></script> 
+    <script src="assets/js/lightbox.js"></script> 
+    <script src="assets/js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+    
 </body>
-
 </html>
